@@ -13,9 +13,8 @@ hbs.registerPartials(__dirname + '/views/partials', function (err) {});
 
 app.use(morgan('dev'))
 app.use(express.static(path.join(__dirname, 'public')))
-app.use(express.static(path.join(__dirname, 'data')))
 app.use(express.static(path.join(__dirname, 'views')))
-app.use(express.static(path.join(__dirname, 'app')))
+
 
 
 
