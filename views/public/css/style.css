@@ -1,0 +1,32 @@
+body {
+
+    background-color: skyblue;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#welcome {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.navigation {
+    justify-content: center;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
